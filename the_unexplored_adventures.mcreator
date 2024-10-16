@@ -1,0 +1,156 @@
+{
+  "mod_elements": [
+    {
+      "name": "Thanatotheristes",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanatotheristes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theunexploredadventures/entity/model/ThanatotheristesModel.java",
+          "src/main/resources/assets/the_unexplored_adventures/models/item/thanatotheristes_spawn_egg.json",
+          "src/main/java/net/mcreator/theunexploredadventures/entity/ThanatotheristesEntity.java",
+          "src/main/java/net/mcreator/theunexploredadventures/client/renderer/ThanatotheristesRenderer.java",
+          "src/main/resources/data/the_unexplored_adventures/forge/biome_modifier/thanatotheristes_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ThanatotheristesOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanatotheristes_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theunexploredadventures/procedures/ThanatotheristesOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThanatotheristesTooth",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanatotheristes_tooth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theunexploredadventures/item/ThanatotheristesToothItem.java",
+          "src/main/resources/assets/the_unexplored_adventures/models/item/thanatotheristes_tooth.json"
+        ]
+      }
+    },
+    {
+      "name": "TheUnexploredAdventures",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_unexplored_adventures",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ThanatotheristesSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanatotheristes_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_unexplored_adventures/models/item/thanatotheristes_sword.json",
+          "src/main/java/net/mcreator/theunexploredadventures/item/ThanatotheristesSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ThanatotheristesSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanatotheristes_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_unexplored_adventures/recipes/thanatotheristes_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PathOfAnAdventurer",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "path_of_an_adventurer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_unexplored_adventures/advancements/path_of_an_adventurer.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ThanatotheristesSword"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.the_unexplored_adventures.thanatotheristes_spawn_egg": "Thanatotheristes Spawn Egg",
+      "item_group.the_unexplored_adventures.the_unexplored_adventures": "The Unexplored Adventures",
+      "advancements.path_of_an_adventurer.descr": "Craft a Thanatotheristes Sword",
+      "item.the_unexplored_adventures.thanatotheristes_tooth": "Thanatotheristes Tooth",
+      "item.the_unexplored_adventures.thanatotheristes_sword": "Thanatotheristes Sword",
+      "entity.the_unexplored_adventures.thanatotheristes": "Thanatotheristes",
+      "advancements.path_of_an_adventurer.title": "Path Of An Adventurer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_unexplored_adventures",
+    "modName": "The Unexplored Adventures",
+    "version": "1.0.0",
+    "author": "Puglord, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.theunexploredadventures"
+  },
+  "mcreatorVersion": 202400232117
+}

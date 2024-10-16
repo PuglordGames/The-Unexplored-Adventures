@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "the_unexplored_adventures:item/thanatotheristes_tooth"
+  }
+}

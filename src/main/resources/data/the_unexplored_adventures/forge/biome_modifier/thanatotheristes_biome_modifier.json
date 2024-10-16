@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "plains",
+    "badlands"
+  ],
+  "spawners": {
+    "type": "the_unexplored_adventures:thanatotheristes",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}
